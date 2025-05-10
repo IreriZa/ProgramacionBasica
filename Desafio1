@@ -1,7 +1,20 @@
+<!DOCTYPE html>
 <html>
-<head>
-  <title> Desafio 1 </title>
-</head>
-<body>
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <title> Desafio 1 </title>
+    <script> 
+      let peso = 0;
+      let estatura = 0;
+      let IMC = 0;
+      peso = prompt("¿Cuánto pesas en kilogramos?");
+      estatura = prompt("¿Cuánto mides en metros?");
+      IMC=peso/((estatura)*(estatura));
+      alert("Tu IMC es: "+IMC);
+    </script>
+  </head>
+  <body>
+    <h1>Desafío 1 Ireri Zamudio </h1>
+    <p> En este desafío se calculará su Índice de Masa Corporal (IMC).Este se calcula dividiendo el peso del individuo en kilogramos por el cuadrado de su altura en metros (kg/m²)</p>
+  </body>
 </html>
